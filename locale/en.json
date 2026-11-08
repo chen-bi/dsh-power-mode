@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Power mode",
+    "description": "A persistent sidebar button that switches between the energy-saving and high-performance power plans with one click, keeping the state in sync."
+  }
+}

@@ -1,0 +1,6 @@
+# dsh-power-mode 的 bundle 补丁层：把本插件作为一行条目插进 profile 的条目列表。
+# name 必须是【包名】dsh-power-mode —— 网页端模块扫描只解析包名行，
+# 靠这一行找到本包的 package.json、读到 dsh.client 字段，才会把 client.js 提供给网页。
+- insert:
+    - id: power-mode
+      name: dsh-power-mode

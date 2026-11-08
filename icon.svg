@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="Power Mode">
+  <defs>
+    <linearGradient id="pm-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#2f9e6a"/>
+      <stop offset="1" stop-color="#14563c"/>
+    </linearGradient>
+    <radialGradient id="pm-glow" cx="0.34" cy="0.28" r="0.78">
+      <stop offset="0" stop-color="#b6f2cf" stop-opacity="0.8"/>
+      <stop offset="1" stop-color="#b6f2cf" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="pm-bolt" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffe2a3"/>
+      <stop offset="1" stop-color="#f0b94f"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="4" y="4" width="56" height="56" rx="14" fill="url(#pm-bg)"/>
+  <rect x="4" y="4" width="56" height="56" rx="14" fill="url(#pm-glow)"/>
+
+  <path d="M40.5 15.2c1.5 5.9 1.3 11.9-2.4 18.3-3 5.1-7.8 8.1-14 9.1 0-8 1.9-14.8 6.2-20.1 2.9-3.4 6.5-5.5 10.2-7.3Z"
+        fill="#eafff2" opacity="0.96"/>
+  <path d="M23 40.6c1.7-5.9 5.1-10.6 10-14.4" fill="none" stroke="#14563c" stroke-width="1.6"
+        stroke-linecap="round" opacity="0.5"/>
+
+  <circle cx="47" cy="45.5" r="8.2" fill="url(#pm-bolt)" stroke="#14563c" stroke-width="1.1"/>
+  <path d="M48.3 40.2 43.2 47h3.6l-.9 4.8 5.2-6.9h-3.6Z" fill="#3a2a08"/>
+</svg>

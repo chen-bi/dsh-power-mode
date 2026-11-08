@@ -1,0 +1,49 @@
+{
+  "name": "dsh-power-mode",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "节能模式 · 电源方案一键切换 —— 侧边栏底部常驻小按钮，在节能和高性能两个电源方案之间切换，状态实时同步；助手也能用 power_mode 工具走同一套逻辑。",
+  "keywords": [
+    "deepseek",
+    "deepseek-harness",
+    "dsh",
+    "dsh-plugin",
+    "power",
+    "power-plan",
+    "eco-mode"
+  ],
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./cordis.patch.yml": "./cordis.patch.yml",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "icon.svg",
+    "README.md"
+  ],
+  "peerDependencies": {
+    "@deepseek-ai/cordis": "^4.0.1",
+    "react": "^18.3.1"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "inject": [],
+      "external": ["react"],
+      "immediately": true
+    }
+  },
+  "license": "MIT"
+}
