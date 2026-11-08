@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420" role="img" aria-label="dsh-power-mode · 节能模式">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#070d0b"/>
+      <stop offset="0.5" stop-color="#0c1712"/>
+      <stop offset="1" stop-color="#0a1016"/>
+    </linearGradient>
+    <radialGradient id="glowEco" cx="0.78" cy="0.35" r="0.5">
+      <stop offset="0" stop-color="#58c47a" stop-opacity="0.30"/>
+      <stop offset="1" stop-color="#58c47a" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowTurbo" cx="0.68" cy="0.85" r="0.45">
+      <stop offset="0" stop-color="#f5b544" stop-opacity="0.20"/>
+      <stop offset="1" stop-color="#f5b544" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="leaf" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#8ce0a4"/>
+      <stop offset="1" stop-color="#3d9d5d"/>
+    </linearGradient>
+    <linearGradient id="bolt" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffd479"/>
+      <stop offset="1" stop-color="#e2962a"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="420" fill="url(#bg)"/>
+  <rect width="1200" height="420" fill="url(#glowEco)"/>
+  <rect width="1200" height="420" fill="url(#glowTurbo)"/>
+
+  <g stroke="#58c47a" stroke-opacity="0.06" stroke-width="1">
+    <path d="M0 100 H1200 M0 200 H1200 M0 300 H1200 M200 0 V420 M500 0 V420 M800 0 V420 M1100 0 V420"/>
+  </g>
+
+  <!-- 左侧叶子 -->
+  <g transform="translate(880 190)">
+    <path d="M0 60 C-60 10 -50 -70 0 -105 C50 -70 60 10 0 60 Z" fill="url(#leaf)" opacity="0.92"/>
+    <path d="M0 55 V-88" stroke="#0c1712" stroke-width="3" stroke-opacity="0.35"/>
+    <path d="M0 5 L-34 -24 M0 -30 L34 -58 M0 -60 L-26 -84" stroke="#0c1712" stroke-width="2.4" stroke-opacity="0.28"/>
+  </g>
+
+  <!-- 右侧闪电 -->
+  <g transform="translate(1050 150)" opacity="0.95">
+    <path d="M18 -70 L-30 8 H6 L-14 74 L58 -14 H20 Z" fill="url(#bolt)"/>
+  </g>
+
+  <text x="80" y="150" font-family="Segoe UI, PingFang SC, Microsoft YaHei, sans-serif" font-size="26" fill="#58c47a" letter-spacing="10">DSH PLUGIN</text>
+  <text x="76" y="232" font-family="Segoe UI, PingFang SC, Microsoft YaHei, sans-serif" font-size="72" font-weight="700" fill="#eef7f0">节能模式</text>
+  <text x="80" y="278" font-family="Segoe UI, PingFang SC, Microsoft YaHei, sans-serif" font-size="24" fill="#8fb8a2" letter-spacing="1.5">power mode · 侧边栏一键切换 · 自动识别本机方案</text>
+  <text x="80" y="320" font-family="Consolas, monospace" font-size="18" fill="#6d9282">powercfg /setactive · 支持 DSH_POWER_ECO / DSH_POWER_TURBO 覆盖</text>
+
+  <g transform="translate(80 352)">
+    <rect x="-6" y="-16" width="220" height="34" rx="17" fill="#0f221a" stroke="#2f5c43"/>
+    <circle cx="16" cy="1" r="6" fill="#58c47a"/>
+    <text x="32" y="7" font-family="Segoe UI, PingFang SC, Microsoft YaHei, sans-serif" font-size="16" fill="#9fd0b2">节能已开启</text>
+  </g>
+  <g transform="translate(340 352)">
+    <rect x="-6" y="-16" width="220" height="34" rx="17" fill="#241c0e" stroke="#6b5320"/>
+    <circle cx="16" cy="1" r="6" fill="#f5b544"/>
+    <text x="32" y="7" font-family="Segoe UI, PingFang SC, Microsoft YaHei, sans-serif" font-size="16" fill="#e6c98a">高性能已开启</text>
+  </g>
+</svg>

@@ -1,4 +1,8 @@
+<p align="center"><img src="assets/banner.svg" alt="dsh-power-mode · 节能模式" width="100%"></p>
+
 # dsh-power-mode · 节能模式
+
+> 介绍页：<https://chen-bi.github.io/dsh-power-mode/>
 
 侧边栏底部常驻的电源方案开关：点一下在「节能」和「高性能」两个方案之间切换，状态实时同步。
 
